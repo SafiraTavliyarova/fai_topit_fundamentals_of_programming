@@ -1,4 +1,4 @@
-# """Часть 1""" При практическом задании закомментить !
+# #"""Часть 1""" При практическом задании закомментить !
 # def check_input(score, type_of_work, missed):
 #     # Проверка диапазонов
 #     if score < 0 or score > 100:
@@ -51,6 +51,7 @@ def get_work_description(type_of_work):
             return 'неизвестный тип работы'
 
 
+
 # Практическое расширение
 
 def check_input(score, type_of_work, missed):
@@ -98,6 +99,10 @@ def process_students_list(students):
 
 # Список студентов
 students_data = [
+    (0,   "exam", 0),
+    (59,  "exam", 0),
+    (74,  "exam", 0),
+    (89,  "exam", 0),
     (95, "exam", 2),
     (88, "project", 1),
     (72, "practice", 4),
